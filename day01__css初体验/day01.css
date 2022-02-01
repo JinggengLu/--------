@@ -1,0 +1,13 @@
+div.card{
+    width:500px;
+    margin:50px;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,27 @@
+ul:first-child{
+    border:3px #000000 solid;
+}
+
+ul:first-child :only-child{
+    background-color: #eee;
+}
+
+ul:first-child :only-child :only-child{
+    border: 3px #000000 dotted;
+}
+
+li:first-child {
+    font-weight: bold;
+    border-bottom: 5px ridge tomato;
+    background-color: black;
+    color: white;
+  }
+
+  li:not(:first-child){
+      color:black;
+  }
+
+  ul li ol li ol li:last-child{
+      font-style: oblique;
+      color: #eee;
+  }
